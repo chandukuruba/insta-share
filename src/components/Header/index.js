@@ -41,7 +41,7 @@ const Header = props => {
         return (
           <nav className="nav-header">
             <div className="nav-content">
-              <div className="nav-bar-mobile-logo-container">
+              {/* <div className="nav-bar-mobile-logo-container">
                 <Link to="/">
                   <img
                     src="https://res.cloudinary.com/dijyby6dt/image/upload/v1695617634/logo_kkwdhk.svg"
@@ -58,7 +58,7 @@ const Header = props => {
                     onClick={onClickMenu}
                   />
                 </button>
-              </div>
+              </div> */}
 
               <div className="nav-bar-large-container">
                 <Link to="/">
@@ -110,7 +110,7 @@ const Header = props => {
                 </ul>
               </div>
             </div>
-            {showMenu && (
+            {/* {showMenu && (
               <div className="nav-menu-mobile">
                 <ul className="nav-menu-list-mobile">
                   <li className="nav-menu-item-mobile">
@@ -152,7 +152,7 @@ const Header = props => {
                   </li>
                 </ul>
               </div>
-            )}
+            )} */}
           </nav>
         )
       }}
