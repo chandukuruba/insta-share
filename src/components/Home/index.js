@@ -60,7 +60,7 @@ const Home = () => {
     }
 
     getData()
-  }, [reload])
+  }, [])
 
   useEffect(() => {
     setApiPostResponse({progress: 'LOADING', data: []})
@@ -92,7 +92,7 @@ const Home = () => {
       }
     }
     getData()
-  }, [reload])
+  }, [])
 
   useEffect(() => {
     setSearchResponse({progress: 'LOADING', data: []})
@@ -124,7 +124,7 @@ const Home = () => {
       }
     }
     getData()
-  }, [reload, searchButtonIsClicked])
+  }, [searchButtonIsClicked])
 
   return (
     <SearchContext.Consumer>
